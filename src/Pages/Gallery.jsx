@@ -6,7 +6,7 @@ import { useInView } from "react-intersection-observer";
 import oluchi1 from "../assets/oluchi1.mp4";
 import oluchi2 from "../assets/oluchi2.mp4";
 import oluchi3 from "../assets/oluchi3.mp4";
-import oluchi4 from "../assets/oluchi4.mp4";
+import oluchi4 from "../assets/Oluchi4.mp4";
 import oluchi5 from "../assets/oluchi5.mp4";
 import oluchi6 from "../assets/oluchi6.mp4";
 import oluchi7 from "../assets/oluchi7.mp4";
