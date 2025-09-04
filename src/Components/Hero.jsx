@@ -8,7 +8,7 @@ const Hero = () => {
       {/* Added pt-28 so Hero doesn't overlap Navbar */}
       <div className="w-screen min-h-screen bg-gradient-to-b from-rose-500 via-black to-black relative pt-28">
         {/* Image */}
-        <div className="absolute top-60 left-[30%] -translate-x-[50%] sm:top-45 sm:left-1/2 sm:-translate-x-[35%] overflow-hidden">
+        <div className="absolute top-35 left-[30%] -translate-x-[50%] sm:top-45 sm:left-1/2 sm:-translate-x-[35%] overflow-hidden">
 
           <img
             className="h-[200px] sm:h-[260px] md:h-[300px] lg:h-[360px] xl:h-[420px] 2xl:h-[480px] object-contain"

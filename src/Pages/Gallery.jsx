@@ -130,7 +130,7 @@ const videos = [
 
 const VideoGallery = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-rose-500 via-black to-gray-900 py-12 px-6 mt-20">
+    <div className="min-h-screen bg-gradient-to-br from-rose-500 via-black to-gray-900 py-12 px-6 mt-32 sm:mt-20">
       <h1 className="text-4xl md:text-5xl font-bold text-center text-white mb-12 drop-shadow-lg">
         Video Gallery
       </h1>
