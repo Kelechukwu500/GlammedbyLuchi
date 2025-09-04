@@ -2,153 +2,127 @@ import React from "react";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
-// ✅ Import videos from assets
-import video1 from "../assets/oluchi1.mp4";
-import video2 from "../assets/oluchi2.mp4";
-import video3 from "../assets/oluchi3.mp4";
-import video4 from "../assets/oluchi4.mp4";
-import video5 from "../assets/oluchi5.mp4";
-import video6 from "../assets/oluchi6.mp4";
-import video7 from "../assets/oluchi7.mp4";
-import video8 from "../assets/oluchi8.mp4";
-import video9 from "../assets/oluchi9.mp4";
-import video10 from "../assets/oluchi10.mp4";
-import video11 from "../assets/oluchi11.mp4";
-import video12 from "../assets/oluchi12.mp4";
-import video13 from "../assets/oluchi13.mp4";
-import video14 from "../assets/oluchi14.mp4";
-import video15 from "../assets/oluchi15.mp4";
-import video16 from "../assets/oluchi16.mp4";
-import video17 from "../assets/oluchi17.mp4";
-import video18 from "../assets/oluchi18.mp4";
-import video19 from "../assets/oluchi19.mp4";
-import video20 from "../assets/oluchi20.mp4";
-import video21 from "../assets/oluchi21.mp4";
-import video22 from "../assets/oluchi22.mp4";
-import video23 from "../assets/oluchi23.mp4";
-import video24 from "../assets/oluchi24.mp4";
-
-// ✅ Video data array
+// ✅ Video data array (pointing to public/videos)
 const videos = [
   {
-    src: video1,
+    src: "/videos/oluchi1.mp4",
     title: "Bridal Glam",
     description: "Soft and radiant bridal makeup that enhances natural beauty.",
   },
   {
-    src: video2,
+    src: "/videos/oluchi2.mp4",
     title: "Editorial Look",
     description:
       "High-fashion editorial makeup with bold and striking details.",
   },
   {
-    src: video3,
+    src: "/videos/oluchi3.mp4",
     title: "Classic Party Look",
     description: "Elegant evening glam for parties and special occasions.",
   },
   {
-    src: video4,
+    src: "/videos/oluchi4.mp4",
     title: "Bold Transformation",
     description: "Vibrant colors and artistic flair for bold makeup lovers.",
   },
   {
-    src: video5,
+    src: "/videos/oluchi5.mp4",
     title: "Natural Glow",
     description: "Minimal glam that enhances your everyday radiant look.",
   },
   {
-    src: video6,
+    src: "/videos/oluchi6.mp4",
     title: "Bridal Trial",
     description: "Testing perfect shades for a stunning bridal appearance.",
   },
   {
-    src: video7,
+    src: "/videos/oluchi7.mp4",
     title: "Traditional Glam",
     description: "A touch of culture with makeup for traditional weddings.",
   },
   {
-    src: video8,
+    src: "/videos/oluchi8.mp4",
     title: "Corporate Look",
     description:
       "Professional yet stylish look for office and business events.",
   },
   {
-    src: video9,
+    src: "/videos/oluchi9.mp4",
     title: "Birthday Glam",
     description: "Special celebration makeup for birthdays and anniversaries.",
   },
   {
-    src: video10,
+    src: "/videos/oluchi10.mp4",
     title: "Smokey Eyes",
     description: "Intense smokey eye for a glamorous night-out look.",
   },
   {
-    src: video11,
+    src: "/videos/oluchi11.mp4",
     title: "Bridesmaids Look",
     description: "Fresh and uniform makeup for bridal team and friends.",
   },
   {
-    src: video12,
+    src: "/videos/oluchi12.mp4",
     title: "Engagement Shoot",
     description: "Soft glam for capturing timeless engagement photos.",
   },
   {
-    src: video13,
+    src: "/videos/oluchi13.mp4",
     title: "Matte Perfection",
     description: "Oil-free matte finish for long-lasting wear.",
   },
   {
-    src: video14,
+    src: "/videos/oluchi14.mp4",
     title: "Glitter Glam",
     description: "Sparkle and shine with glitter-infused makeup looks.",
   },
   {
-    src: video15,
+    src: "/videos/oluchi15.mp4",
     title: "Photo Shoot Glam",
     description: "Makeup tailored for professional photography sessions.",
   },
   {
-    src: video16,
+    src: "/videos/oluchi16.mp4",
     title: "Red Carpet Look",
     description: "Luxurious makeup designed for spotlight events.",
   },
   {
-    src: video17,
+    src: "/videos/oluchi17.mp4",
     title: "Traditional Ceremony",
     description: "Glamorous touch for cultural ceremonies and events.",
   },
   {
-    src: video18,
+    src: "/videos/oluchi18.mp4",
     title: "Simple Elegance",
     description: "A classy and minimalist look for formal occasions.",
   },
   {
-    src: video19,
+    src: "/videos/oluchi19.mp4",
     title: "Runway Makeup",
     description: "Bold artistic glam designed for runway fashion shows.",
   },
   {
-    src: video20,
+    src: "/videos/oluchi20.mp4",
     title: "Evening Dinner Look",
     description: "Elegant dinner party glam to leave lasting impressions.",
   },
   {
-    src: video21,
+    src: "/videos/oluchi21.mp4",
     title: "Festival Glam",
     description: "Creative and colorful glam for fun festival events.",
   },
   {
-    src: video22,
+    src: "/videos/oluchi22.mp4",
     title: "Beach Photoshoot",
     description: "Soft bronzed look for glowing beach photos.",
   },
   {
-    src: video23,
+    src: "/videos/oluchi23.mp4",
     title: "Casual Day Out",
     description: "Fresh natural glam for casual outings.",
   },
   {
-    src: video24,
+    src: "/videos/oluchi24.mp4",
     title: "Bridal Reception",
     description: "Glamorous look perfect for bridal receptions.",
   },
