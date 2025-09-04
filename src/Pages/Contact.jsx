@@ -13,7 +13,7 @@ const Contact = () => {
   return (
     <div className="w-full min-h-screen bg-gradient-to-br from-rose-500 via-black to-black py-16 px-6 flex flex-col items-center mt-20">
       {/* Page Heading */}
-      <h1 className="text-4xl md:text-5xl font-extrabold text-white mb-12 drop-shadow-lg">
+      <h1 className="text-4xl md:text-5xl font-extrabold text-white mb-12 drop-shadow-lg mt-16 md:mt-0">
         Contact
       </h1>
 

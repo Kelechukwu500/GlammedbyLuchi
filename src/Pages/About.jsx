@@ -36,9 +36,10 @@ const About = () => {
         animate={headingInView ? "visible" : "hidden"}
         className="text-center mb-12"
       >
-        <h2 className="text-4xl md:text-5xl font-extrabold text-white mb-4 drop-shadow-lg">
+        <h2 className="text-4xl md:text-5xl font-extrabold text-white mb-4 drop-shadow-lg mt-16 md:mt-0">
           About Me
         </h2>
+
         <p className="text-lg md:text-xl text-gray-200 max-w-3xl mx-auto leading-relaxed">
           Behind every flawless look is a passion for beauty, creativity, and
           confidence. I’m dedicated to making every client feel extraordinary,
