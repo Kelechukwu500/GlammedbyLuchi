@@ -7,7 +7,7 @@ const videos = [
   {
     src: "/videos/oluchi1.mp4",
     title: "Simple Elegance",
-    description: "Soft and radiant bridal makeup that enhances natural beauty.",
+    description: "A classy and minimalist look for formal occasions.",
   },
   {
     src: "/videos/oluchi2.mp4",
@@ -94,7 +94,7 @@ const videos = [
   {
     src: "/videos/oluchi18.mp4",
     title: "Bridal Glam",
-    description: "A classy and minimalist look for formal occasions.",
+    description: "Soft and radiant bridal makeup that enhances natural beauty.",
   },
   {
     src: "/videos/oluchi19.mp4",
