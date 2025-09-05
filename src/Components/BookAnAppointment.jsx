@@ -57,7 +57,7 @@ const BookAnAppointment = () => {
   };
 
   return (
-    <div className="min-h-screen flex justify-center items-start bg-gradient-to-br from-rose-500 via-black to-gray-900 py-10 px-4 mt-20">
+    <div className="min-h-screen flex justify-center items-start bg-gradient-to-br from-rose-500 via-black to-gray-900 py-10 px-4 mt-32">
       <motion.div
         ref={ref}
         initial={{ opacity: 0, y: 50, scale: 0.9 }}

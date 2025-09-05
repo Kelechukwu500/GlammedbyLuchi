@@ -59,7 +59,7 @@ const About = () => {
         <div className="bg-black/40 backdrop-blur-lg rounded-2xl shadow-xl border border-rose-500/40 p-8 hover:shadow-2xl transition transform hover:-translate-y-2">
           <h3 className="text-2xl font-bold text-rose-400 mb-4">My Journey</h3>
           <p className="text-gray-200 leading-relaxed">
-            With over 5 years of experience in the beauty industry, I’ve
+            With over 3 years of experience in the beauty industry, I’ve
             mastered the art of makeup that enhances natural beauty without
             overshadowing individuality. My journey began with a love for
             colors, artistry, and confidence-building. Over time, I’ve worked
