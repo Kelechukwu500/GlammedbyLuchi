@@ -6,7 +6,7 @@ import { useInView } from "react-intersection-observer";
 const videos = [
   {
     src: "/videos/oluchi1.mp4",
-    title: "Bridal Glam",
+    title: "Simple Elegance",
     description: "Soft and radiant bridal makeup that enhances natural beauty.",
   },
   {
@@ -93,7 +93,7 @@ const videos = [
   },
   {
     src: "/videos/oluchi18.mp4",
-    title: "Simple Elegance",
+    title: "Bridal Glam",
     description: "A classy and minimalist look for formal occasions.",
   },
   {

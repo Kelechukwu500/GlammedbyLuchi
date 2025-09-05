@@ -64,22 +64,34 @@ const Navbar = () => {
         {/* ✅ Right Nav Links */}
         <ul className="flex flex-wrap justify-center sm:justify-end gap-4 sm:gap-8 w-full sm:w-auto text-lg font-medium">
           <li>
-            <Link to="/hero" className="hover:text-yellow-400 transition">
+            <Link
+              to="/"
+              className="hover:text-yellow-400 cursor-pointer transition"
+            >
               Home
             </Link>
           </li>
           <li>
-            <Link to="/about" className="hover:text-yellow-400 transition">
+            <Link
+              to="/about"
+              className="hover:text-yellow-400 cursor-pointer transition"
+            >
               About Me
             </Link>
           </li>
           <li>
-            <Link to="/gallery" className="hover:text-yellow-400 transition">
+            <Link
+              to="/gallery"
+              className="hover:text-yellow-400 cursor-pointer transition"
+            >
               Gallery
             </Link>
           </li>
           <li>
-            <Link to="/contact" className="hover:text-yellow-400 transition">
+            <Link
+              to="/contact"
+              className="hover:text-yellow-400 cursor-pointer transition"
+            >
               Contact
             </Link>
           </li>
