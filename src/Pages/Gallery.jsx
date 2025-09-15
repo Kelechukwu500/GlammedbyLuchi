@@ -5,8 +5,8 @@ import { useInView } from "react-intersection-observer";
 // ✅ Video data array (pointing to public/videos)
 const videos = [
   {
-    src: "/videos/oluchi1.mp4",
-    title: "Simple Elegance",
+    src: "/videos/oluchi18.mp4",
+    title: "Bridal Glam",
     description: "A classy and minimalist look for formal occasions.",
   },
   {
@@ -37,12 +37,12 @@ const videos = [
   },
   {
     src: "/videos/oluchi7.mp4",
-    title: "Traditional Glam",
+    title: "Corporate Look",
     description: "A touch of culture with makeup for traditional weddings.",
   },
   {
     src: "/videos/oluchi8.mp4",
-    title: "Corporate Look",
+    title: "Traditional Glam",
     description:
       "Professional yet stylish look for office and business events.",
   },
@@ -52,7 +52,7 @@ const videos = [
     description: "Special celebration makeup for birthdays and anniversaries.",
   },
   {
-    src: "/videos/oluchi10.mp4",
+    src: "/videos/oluchi25.mp4",
     title: "Smokey Eyes",
     description: "Intense smokey eye for a glamorous night-out look.",
   },
@@ -92,8 +92,8 @@ const videos = [
     description: "Glamorous touch for cultural ceremonies and events.",
   },
   {
-    src: "/videos/oluchi18.mp4",
-    title: "Bridal Glam",
+    src: "/videos/oluchi1.mp4",
+    title: "Simple Elegance",
     description: "Soft and radiant bridal makeup that enhances natural beauty.",
   },
   {
@@ -117,7 +117,7 @@ const videos = [
     description: "Soft bronzed look for glowing beach photos.",
   },
   {
-    src: "/videos/oluchi23.mp4",
+    src: "/videos/oluchi26.mp4",
     title: "Casual Day Out",
     description: "Fresh natural glam for casual outings.",
   },
