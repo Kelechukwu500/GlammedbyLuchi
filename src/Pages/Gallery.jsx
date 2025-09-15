@@ -5,7 +5,7 @@ import { useInView } from "react-intersection-observer";
 // ✅ Video data array (pointing to public/videos)
 const videos = [
   {
-    src: "/videos/oluchi18.mp4",
+    src: "/videos/oluchi27.mp4",
     title: "Bridal Glam",
     description: "A classy and minimalist look for formal occasions.",
   },
